@@ -1,9 +1,5 @@
 #!/usr/bin/env bash
-# --------------------------------------------------------------------------
-# Copyright (c) 2026 SUDEEPBOTS. All Rights Reserved.
-# AniyaMusic — High-Performance Telegram Voice Chat Music & Video Engine
-# Licensed under the MIT License. See LICENSE in the project root for details.
-# --------------------------------------------------------------------------
+python3 /app/server.py &
 
 if [ -f myenv/bin/activate ]; then
     source myenv/bin/activate
