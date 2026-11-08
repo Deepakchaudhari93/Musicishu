@@ -4,7 +4,7 @@
 # Licensed under the MIT License. See LICENSE in the project root for details.
 # --------------------------------------------------------------------------
 
-FROM python:3.10-slim
+FROM python:3.11-slim
 
 ENV PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1 \
